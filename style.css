@@ -1,0 +1,133 @@
+*, *::before, *::after{
+	margin: 0;
+	font-family: consolas;
+	font-size: 14px;
+	padding: 0; 
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: lightblue;
+}
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: transparent;
+}
+
+.row
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.col
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	height: 100%;
+	padding: 1rem;
+	width: 50%;
+	flex-direction: column;
+	background: transparent;
+}
+
+.col:first-child
+{
+	background: url(3761069.jpg);
+	background-size: cover;
+	border-radius: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.col:last-child
+{
+	padding: .4rem;
+	border-radius: .5rem;
+}
+
+form
+{
+	margin-left: 5rem !important;
+}
+
+form h4
+{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #336b87;
+	text-align: center;
+	padding: .5rem;
+	margin: 0 2rem;
+	left: -2rem;
+}
+
+.submit
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#submit
+{
+	padding: .5rem 1.2rem;
+	background: #336b87;
+	color: #fff;
+	border: 0;
+	border-radius: .5rem; 
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#submit:focus
+{
+	outline: none;
+}
+
+
+
+
+.form-container
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffe6ff;
+	border-radius: .5rem;
+}
+
+
+.form-link
+{
+	position: absolute;
+	right: 3rem; bottom: 6rem;
+}
+
+.form-link a
+{
+	color: #336b87;
+}
